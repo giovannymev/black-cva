@@ -1,5 +1,5 @@
 import React from 'react';
-import { Rocket, LockOpen } from 'lucide-react';
+import { Rocket, Unlock } from 'lucide-react';
 
 export const Goal: React.FC = () => {
   return (
@@ -25,7 +25,7 @@ export const Goal: React.FC = () => {
         <div className="bg-zinc-900/80 backdrop-blur-sm border border-zinc-800 p-6 rounded-xl max-w-2xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-4">
             <div className="shrink-0 bg-green-500/10 p-3 rounded-full">
-              <LockOpen className="w-6 h-6 text-green-500" />
+              <Unlock className="w-6 h-6 text-green-500" />
             </div>
             <p className="text-gray-300 text-left">
               Saia da estagnação e viva a experiência de adorar com <span className="text-white font-semibold">liberdade técnica e espiritual</span>.
