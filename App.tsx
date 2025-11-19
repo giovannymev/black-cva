@@ -5,12 +5,14 @@ import { Goal } from './components/Goal';
 import { Pricing } from './components/Pricing';
 import { Footer } from './components/Footer';
 import { CountdownBar } from './components/CountdownBar';
+import { SocialProofToast } from './components/SocialProofToast';
 import { WA_LINK } from './constants';
 
 const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-black text-white font-sans selection:bg-orange-500 selection:text-white">
       <CountdownBar />
+      <SocialProofToast />
       <Hero />
       <Features />
       <Goal />

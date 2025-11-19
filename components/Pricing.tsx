@@ -1,6 +1,7 @@
 import React from 'react';
 import { PRICES } from '../constants';
 import { Button } from './Button';
+import { StockProgressBar } from './StockProgressBar';
 import { Check, AlertTriangle } from 'lucide-react';
 
 export const Pricing: React.FC = () => {
@@ -74,6 +75,7 @@ export const Pricing: React.FC = () => {
           {/* CTA */}
           <div className="flex flex-col gap-4 mb-8">
             <Button className="w-full" size="lg" />
+            <StockProgressBar />
             <p className="text-center text-xs text-gray-500 flex items-center justify-center gap-1">
                <Check className="w-3 h-3 text-green-500" /> Compra 100% segura via WhatsApp
             </p>
