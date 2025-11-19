@@ -51,3 +51,12 @@ export const PRICES = {
   installment: "29,90",
   discountPercentage: "85"
 };
+
+export const BRAZIL_STATES = [
+  "São Paulo", "Rio de Janeiro", "Minas Gerais", "Bahia", "Paraná", 
+  "Rio Grande do Sul", "Pernambuco", "Ceará", "Pará", "Santa Catarina", 
+  "Goiás", "Maranhão", "Paraíba", "Espírito Santo", "Amazonas", 
+  "Rio Grande do Norte", "Alagoas", "Mato Grosso", "Piauí", "Distrito Federal", 
+  "Mato Grosso do Sul", "Sergipe", "Rondônia", "Tocantins", "Acre", 
+  "Amapá", "Roraima"
+];

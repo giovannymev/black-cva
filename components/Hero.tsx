@@ -1,6 +1,7 @@
 import React from 'react';
 import { ShieldCheck, Zap } from 'lucide-react';
 import { Button } from './Button';
+import { StockProgressBar } from './StockProgressBar';
 import { PRICES } from '../constants';
 
 export const Hero: React.FC = () => {
@@ -30,8 +31,9 @@ export const Hero: React.FC = () => {
           Unimos a <strong>Melhor Ferramenta</strong>, o <strong>Curso Completo</strong> e o <strong>Melhor Acompanhamento</strong> para você tocar sem cifras em até 3 meses — com <span className="bg-orange-600 text-white px-2 py-0.5 rounded font-bold">{PRICES.discountPercentage}% OFF</span>.
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-          <Button />
+        <div className="flex flex-col items-center justify-center mb-12 w-full max-w-md mx-auto">
+          <Button className="w-full md:w-auto" />
+          <StockProgressBar />
         </div>
 
         <div className="flex flex-wrap justify-center gap-6 text-gray-500 text-sm md:text-base">
